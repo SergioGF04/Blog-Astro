@@ -1,10 +1,10 @@
 ---
 import { type CollectionEntry } from 'astro:content'
 import FormattedDate from './FormattedDate.astro'
-import Image from 'astro/components/Image.astro';
+import { Image } from 'astro:assets'
 
 type Props = CollectionEntry<"blog">["data"] & { slug : string };
-const {heroImage, title, pubDate, tags, slug} = Astro.props;
+const { heroImage, title, pubDate, tags, slug } = Astro.props;
 ---
 
 <li class="border-extra-soft-white text-soft-white hover:bg-soft-light rounded-xl border transition-colors duration-200">
