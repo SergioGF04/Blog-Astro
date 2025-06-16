@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^6.0.2",
+    "@astrojs/vercel": "^8.1.5",
     "@iconify-json/lucide": "^1.2.49",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.21",
