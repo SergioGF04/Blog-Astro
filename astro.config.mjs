@@ -15,5 +15,5 @@ export default defineConfig({
       lucide: ["*"]
     }
   }), sitemap()],
-  site: "http://localhost:4321/"
+  site: "https://blog-astro-sergio.vercel.app/"
 });
